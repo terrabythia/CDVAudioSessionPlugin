@@ -1,0 +1,4 @@
+Voor ios moet voor het afspelen van een video of geluid een AVSessie gestart worden, zodat de video ook geluid blijft geven wanneer de telefoon op stil staat.
+
+Nu gebeurt dat in MainViewController.m (en moet dus handmatig toegevoegd worden wanneer platform ios verwijderd en opnieuw toegevoegd wordt), waardoor alle muziek die
+eventueel nog afgespeeld wordt op de telefoon automatisch gepauzeerd wordt bij het openen van de app...
