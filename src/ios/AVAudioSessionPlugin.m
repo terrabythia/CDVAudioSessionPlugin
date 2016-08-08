@@ -1,4 +1,5 @@
-#import "AVAudioSession.h"
+#import "AVAudioSessionPlugin.h"
+#import <AVFoundation/AVFoundation.h>
 
 @implementation AVAudioSessionPlugin
 
