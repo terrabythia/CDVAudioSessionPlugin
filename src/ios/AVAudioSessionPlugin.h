@@ -1,6 +1,5 @@
 #import <Cordova/CDVPlugin.h>
 
-@interface AVAudioSessionPlugin : CDVPlugin {
-
+@interface AVAudioSessionPlugin : CDVPlugin
 
 @end
