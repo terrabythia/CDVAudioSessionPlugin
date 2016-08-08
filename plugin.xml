@@ -19,8 +19,8 @@
 -->
 
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-           id="nl.frismedia.avaudisessionplugin"
-      version="0.0.7">
+           id="nl.frismedia.avaudiosessionplugin"
+      version="0.0.8">
 
     <name>AVAudioSessionPlugin</name>
     <description>Frismedia AV Audio Session Plugin</description>
