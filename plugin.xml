@@ -25,10 +25,17 @@
     <name>AVAudioSessionPlugin</name>
     <description>Frismedia AV Audio Session Plugin</description>
     <license>Apache 2.0</license>
-    <keywords>browser</keywords>
-    <repo>https://github.com/SanderSoulwax/CDVFrisInAppBrowser.git</repo>
+    <keywords>AVAudioSession</keywords>
+    <repo>https://github.com/terrabythia/CDVAudioSessionPlugin.git</repo>
 
     <js-module src="www/AVAudioSessionPlugin.js" name="AVAudioSessionPlugin">
     </js-module>
+
+    <platform name="ios">
+
+        <header-file src="src/ios/AvAudioSessionPlugin.h" />
+        <source-file src="src/ios/AVAudioSessionPlugin.m" />
+
+    </platform>
 
 </plugin>
