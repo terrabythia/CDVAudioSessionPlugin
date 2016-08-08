@@ -1,6 +1,6 @@
 #import <Cordova/CDVPlugin.h>
 
-@interface IonicKeyboard : CDVPlugin <UIScrollViewDelegate> {
+@interface AVAudioSessionPlugin : CDVPlugin {
 
 
 @end
