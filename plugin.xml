@@ -36,6 +36,8 @@
         <header-file src="src/ios/AvAudioSessionPlugin.h" />
         <source-file src="src/ios/AVAudioSessionPlugin.m" />
 
+        <framework src="AVFoundation.framework" />
+
     </platform>
 
 </plugin>
