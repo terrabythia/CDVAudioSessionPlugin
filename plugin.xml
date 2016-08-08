@@ -29,6 +29,7 @@
     <repo>https://github.com/terrabythia/CDVAudioSessionPlugin.git</repo>
 
     <js-module src="www/AVAudioSessionPlugin.js" name="AVAudioSessionPlugin">
+        <clobbers target="AVAudioSessionPlugin" />
     </js-module>
 
     <platform name="ios">
